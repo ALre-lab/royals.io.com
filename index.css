@@ -1,0 +1,52 @@
+body{ font-family: 'Playfair';
+margin: 0;
+padding: 0;
+color: white;}
+
+li { list-style: none;
+    margin-right: 25px;
+}
+    
+.menu { display: flex;
+justify-content: space-between;
+align-items: center;
+ }
+
+ul { display: flex;}
+
+.titular { text-align: left;
+    margin-top: 100px;
+text-align: center; }
+
+h2 { font-size: 60px;
+    margin: 0; }
+
+h3{ font-size: 25px;
+    margin-bottom: 30px;
+margin-left: 25px;}
+
+.nt {color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    padding:10px 20px 10px 20px ;
+    margin-left: 50px;
+    background: red    
+}
+    header {
+        background: url(azul.png);
+        height: 100vh;
+        background-size: cover;
+    }
+    img { 
+        margin-top: 50px;
+       height: 40.3vh;
+    }
+    a { text-decoration: none;
+    color: white; }
+
+    a:hover{
+        background-color: aqua;
+        border-radius: 3px;
+        padding: 2px;
+    }
+
